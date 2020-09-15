@@ -1,0 +1,34 @@
+body {
+    background-color: dimgrey;
+}
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 56px;
+}
+span {
+    color: red;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.heading {
+    width: 75%;
+}
+
+.links {
+    border-radius: 50%;
+    margin: 3rem 3rem;
+}
+
+a {
+    color: white;
+}
+
+a:hover{
+    color: red;
+}
+
