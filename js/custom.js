@@ -9,7 +9,30 @@ $().ready(function() {
     var modal = $(this)
     modal.find('.modal-title').text("Let's chat!" + recipient)
     modal.find('.modal-body input').val(recipient)
-  })
+  });
+
+  /*-------- Typing Effect -----------*/
+    const texts = ['a Web Developer', 'persistent', 'creative', 'your father'];
+    let count = 0;
+    let index = 0;
+    let currentText = '';
+    let letter = '';
+
+  (function typeEffect() {
+      if(count === texts.length) {
+        count = 0;
+      }
+      currentText = texts[count];
+      letter = currentText.slice(0, ++index);
+
+      document.querySelector('.type-effect').textContent = letter;
+      if (letter.length === currentText.length) {
+        count++;
+        index = 0;
+      }
+      setTimeout(typeEffect, 150);
+  })();
+
 
 
 });
