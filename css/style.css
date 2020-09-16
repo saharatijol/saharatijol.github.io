@@ -56,9 +56,11 @@ p {
 .links {
     margin: 2rem 1rem;
     color: white;
+    transition: all 0.2s ease-in-out;
 }
 .links:hover {
     color: red;
+    transform: scale(1.5);
 }
 .link-group {
     position: absolute;
