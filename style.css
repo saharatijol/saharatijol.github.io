@@ -1,13 +1,18 @@
 body {
-    background-color: dimgrey;
+    background-color: #222831;
     margin: 0;
     padding: 0;
     width: 100%;
 }
+#name {
+    color: #fa7d09;
+}
+
 h1 {
     color: white;
-    font-size: 56px;
+    font-size: 42px;
     text-align: center;
+    font-family: 'Source Code Pro', monospace;
 }
 hr{
     width: 25%;
@@ -17,6 +22,10 @@ hr{
 }
 span {
     color: red;
+}
+
+p {
+    color: white;
 }
 
 
@@ -49,7 +58,7 @@ span {
 }
 
 .project-button {
-    width: 25%;
+    width: 15%;
 }
 
 .card-title, .card-text {
