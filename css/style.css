@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'retro_new_versionregular';
+    src: url('/custom-fonts/retronewversion-v6jy-webfont.woff2') format('woff2'),
+         url('/custom-fonts/retronewversion-v6jy-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body {
+    background-color: #222831;
+    margin: 0;
+    padding: 0;
+}
+#name {
+    color: yellow;
+}
+h1 {
+    color: white;
+    font-size: 50px;
+    font-family: 'retro_new_versionregular';
+    font-weight: normal;
+    font-style: normal;
+    line-height: 5rem;
+    text-align: center;
+}
+hr {
+    width: 25%;
+    color: white;
+    margin-bottom: 2rem;
+    background: white;
+}
+span {
+    color: red;
+}
+p {
+    color: white;
+    font-size: 18px;
+}
+.main {
+    position: relative;
+    top: 11rem;
+}
+.links {
+    margin: 2rem 1rem;
+    color: white;
+}
+.links:hover {
+    color: red;
+}
+.link-group {
+    position: absolute;
+    bottom: 18rem;
+    right: 0rem;
+}
+
+/*Side Nav slide out*/
+
+
+
+/*--------- Portfolio -------*/
+.card-title,
+.card-text {
+    color: white;
+}
+
+.footer {
+    position: absolute;
+    bottom: 1rem;
+    margin-left: 2rem;
+}
