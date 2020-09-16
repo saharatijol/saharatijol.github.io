@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'retro_new_versionregular';
-    src: url('/custom-fonts/retronewversion-v6jy-webfont.woff2') format('woff2'),
-         url('/custom-fonts/retronewversion-v6jy-webfont.woff') format('woff');
+    src: url('../custom-fonts/retronewversion-v6jy-webfont.woff2') format('woff2'),
+         url('../custom-fonts/retronewversion-v6jy-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 
@@ -25,7 +25,7 @@ h1 {
     text-align: center;
 }
 hr {
-    width: 25%;
+    width: 20%;
     color: white;
     margin-bottom: 2rem;
     background: white;
