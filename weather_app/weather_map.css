@@ -1,0 +1,13 @@
+body {
+    background: url('img/sky_bg1.jpg') center;
+    /*overflow: hidden;*/
+}
+
+.card {
+    border-radius: 3%;
+    opacity: 0.8;
+}
+
+img {
+    width: 30%;
+}

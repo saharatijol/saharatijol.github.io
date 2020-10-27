@@ -12,7 +12,7 @@ $().ready(function() {
   });
 
   /*-------- Typing Effect -----------*/
-    const texts = ['a Web Developer', 'persistent', 'creative', '', 'quirky 🤡', 'seeking opportunities'];
+    const texts = ['a Web Developer', 'persistent', 'creative', 'quirky 🤡', 'seeking opportunities'];
     let count = 0;
     let index = 0;
     let currentText = '';
@@ -30,8 +30,12 @@ $().ready(function() {
         count++;
         index = 0;
       }
-      setTimeout(typeEffect, 150);
+      setTimeout(typeEffect, 200);
   })();
+
+  $('#back').click(function() {
+    location = 'https://saharatijol.github.io/'
+  });
 
 
 

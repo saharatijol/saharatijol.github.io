@@ -54,9 +54,12 @@ p {
     top: 11rem;
 }
 .links {
-    margin: 2rem 1rem;
+    margin: 4rem 1rem;
     color: white;
     transition: all 0.2s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
 }
 .links:hover {
     color: red;
@@ -114,3 +117,52 @@ h2 {
 p, h5 {
     font-family: 'Nanum Gothic Coding', monospace;
 }
+
+/* @media (max-width: 450px){
+    .link-group {
+        position: absolute;
+        bottom: 1rem;
+        right: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main {
+        position: relative;
+        top: 2rem;
+        margin: 1rem 2rem;
+    }
+    
+} */
+
+/* @media (min-width: 451px) and (max-width: 540){
+    .link-group {
+        position: absolute;
+        bottom: 1rem;
+        right: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main {
+        position: relative;
+        top: 18rem;
+        margin: 1rem 2rem;
+    }
+} */
+
+/* @media (min-width: 541px) and (max-width: 768) {
+    .link-group {
+        position: absolute;
+        bottom: 1rem;
+        right: 5rem;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .main {
+        position: relative;
+        top: 2rem;
+        margin: 1rem 2rem;
+    }
+} */
