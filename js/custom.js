@@ -11,8 +11,8 @@ $().ready(function() {
     modal.find('.modal-body input').val(recipient)
   });
 
-  /*-------- Typing Effect -----------*/
-    const texts = ['a Web Developer', 'persistent', 'creative', 'quirky 🤡', 'seeking opportunities'];
+  /*-------- Typing Effect ---------*/
+    const texts = ['a Web Developer', 'persistent', 'creative'];
     let count = 0;
     let index = 0;
     let currentText = '';
@@ -36,7 +36,4 @@ $().ready(function() {
   $('#back').click(function() {
     location = 'https://saharatijol.github.io/'
   });
-
-
-
 });
