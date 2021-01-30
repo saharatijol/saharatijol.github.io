@@ -33,7 +33,8 @@ $().ready(function() {
       setTimeout(typeEffect, 200);
   })();
 
-  $('#back').click(function() {
-    location = 'https://saharatijol.github.io/'
+  $('.back').click(function() {
+    console.log("back is clicked");
+    location = 'https://saharatijol.github.io/';
   });
 });
