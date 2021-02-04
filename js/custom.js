@@ -12,7 +12,7 @@ $().ready(function() {
   });
 
   /*-------- Typing Effect ---------*/
-    const texts = ['a Web Developer', 'persistent', 'creative', 'veteran'];
+    const texts = ['a Web Developer', 'persistent', 'creative', 'a veteran'];
     let count = 0;
     let index = 0;
     let currentText = '';
